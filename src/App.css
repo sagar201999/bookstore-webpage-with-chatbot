@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #001C30;
+
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+
+}
+
+/* .black-perl {
+  background-color: #001C30;
+} */
+
+.LightCyan1 {
+  color: #DAFFFB;
+}
+
+.bg-LightCyan1 {
+  background-color: #DAFFFB;
+}
+
+.bg-a {
+  background-color: #4E4FEB;
+
+}
+
+.bg-b {
+  background-color: #6F61C0;
+}
+
+
+
+.Teal-Blue {
+  color: #64CCC5;
+}
+
+.bg-Teal-Blue {
+  background-color: #64CCC5;
+}
+
+
+.comic-box {
+  width: 240px;
+  height: 480px;
+  margin: auto;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.img-size {
+  width: 180px;
+  height: 280px;
+  margin: 20px 30px;
+}
+
+.comic-box:hover {
+  color: white;
+  box-shadow: 0 5px 15px #64CCC5;
+  transform: scale(1.01);
+
+}
+
+.no-undeline {
+  text-decoration: none;
+
+}
+
+/* description */
+
+.des-img {
+  width: 300px;
+}
+
+
+/* chatbox */
+
+
+.chat-logo{
+  width: 100px;
+
+}
+
+.chat-logo2 {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.box-container {
+  width: 460px;
+  height: 450px;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.m-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.m-container {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.chat-icon {
+  width: 50px;
+}
+
+.t-container {
+  width: 430px;
+  margin: auto;
+  border-radius: 5px 5px 0 0;
+
+}
+
+.m-container {
+  width: 430px;
+  height: 530px;
+  margin: auto;
+  overflow: auto;
+
+}
+
+
+.f-container {
+  width: 430px;
+  border-radius: 0 0 5px 5px;
+  margin: auto;
+
+}
+
+.text-bar-width {
+  width: 350px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+} 
+
+input::placeholder {
+  color: black;
+}
+

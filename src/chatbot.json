@@ -1,0 +1,13 @@
+{
+    "chatbott": [
+        {
+            "id": "1",
+            "text": "hello {userInput} how can i help you ?",
+            "options": {
+                "que1": "1. What genre are you in the mood for?",
+                "que2": "2. Are you looking for a particular language",
+                "que3":"3. Are you interested in discounted books?"
+            }
+        }
+    ]
+}
